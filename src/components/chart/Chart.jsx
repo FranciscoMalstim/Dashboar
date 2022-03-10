@@ -1,4 +1,3 @@
-
 import { LineChart, Line, XAxis, YAxis, CartesianGrid, Tooltip, Legend, ResponsiveContainer } from 'recharts';
 
 import './chart.css'
@@ -16,7 +15,6 @@ export default function Chart({ title, data, dataKey, grid}) {
               {grid && <CartesianGrid stroke='#e0dfdf' strokeDasharray="5 5"/>}
               <Legend/>
             </LineChart>
-
           </ResponsiveContainer>
       </div>
     )
